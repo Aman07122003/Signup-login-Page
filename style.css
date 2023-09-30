@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Mono:ital,wght@0,100;1,100&family=Roboto:wght@100;700&family=Skranji&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img.jpg);
+    background-size: cover;
+}
+.container{
+    height: 350px;
+    width: 350px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 18%;
+}
+
+.heading{
+    margin-bottom: 40px;
+    background: transparent;
+    color: floralwhite;
+}
+
+.inputField .username{
+    border-radius: 5px;
+}
+  
+input{
+    border-radius: 5px;
+    border-radius: none;
+}
+.username {
+    margin-bottom: 10px;
+   
+}
+
+.password{
+    margin-top: 10px;
+    
+}
+
+
+.login_button{
+    margin-top: 15px;
+}
+
+.input{
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+}
+
+
+/* Basic button styles */
+button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding for button size */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Cursor style on hover */
+    
+}
+
+/* Button hover state */
+button:hover {
+    background-color: #2980b9; /* New background color on hover */
+}
